@@ -15,4 +15,4 @@ Codepath week 7-8
     The script would need to be 64kb long.
     
  ## Proof of Concept
-    ![](images/screenshot(70).png)
+    ![](images/Screenshot(70).png)
