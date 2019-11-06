@@ -13,7 +13,7 @@ Codepath week 7-8
     After the administrator approves a single comment from a user(the attacker in this case), the user will no longer need approval for any of the further comments.
     After the first comment is approved, the attacker can then post a comment(which is the script in this case).
     The script would need to be 64kb long.
+ ![Script used for attack](images/Screenshot70.png)
     
  ## Proof of Concept
- ![Script used for attack](images/Screenshot70.png)
  ![Attack succes](images/Screenshot69.png)
