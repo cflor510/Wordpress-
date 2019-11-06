@@ -14,7 +14,7 @@ Codepath week 7-8
     I had problems with this step because i wasn able to view posts at first. I kept getting a 404 error
  ![404 request when attempting to view page](images/Screenshot77.png)
     I had to change the permalink settings from "Custom Structure" to "Default"
-    
+ ![Change to default Permalink settings](images/Screenshot78.png)
     After the first comment is approved, the attacker can then post a comment(which is the script in this case).
     The script would need to be 64kb long.
  ![Script used for attack](images/Screenshot70.png)
