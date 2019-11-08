@@ -4,7 +4,8 @@ Codepath week 7-8
 ### Sources:https://klikki.fi/adv/wordpress2.html, https://www.exploit-db.com/exploits/36844
 
 ### Overview:
-  Many of the wordpress version before 4.2.1 were vulnerable to stored cross-site -scripting attacks. Attcackers can inject Javascript in a comment in a post and the attack would commence once the administrator has approved of a previous comment.
+  Many of the wordpress version before 4.2.1 were vulnerable to stored cross-site -scripting attacks. Attackers can inject Javascript in a comment in a post and the attack would commence once the administrator has approved of a previous comment.
+  The comment itself would need to be a very long comment(64kb or more) because that is the limit the MySQL database allows. 
   Once the code has been triggered, the attacker can act as the administrator and change the password, add a new post, etc.
   
 ### Walkthrough:
@@ -31,8 +32,14 @@ Codepath week 7-8
 
 ### Overview:
 
-    Using this persistant cross site scrpting attack, an attacker can manipulate an admin(via social engineering) to upload an image with a malicious filenam. When uploaded into wordpress, will allow the attacker to steal the admins session cookies and login info to act as the admin and manipulate the site.
+    Using this persistant cross site scrpting attack, an attacker can manipulate an admin(via social engineering) to upload an image with a filename(which includes the javascript in the name itself). When uploaded into wordpress, will allow the attacker to steal the admins session cookies and login info to act as the admin and manipulate the site.
     
 ### Walkthrough:
-    -For this attack to work, the attacker would first need to perform some social engineering on the admin, so that the admin would upload the malicious image.
-    -Once the attacker has persuaded the admin into uploading the malicioius image the
+    -For this attack to work, the attacker would firsneed to perform some social engineering on the admin, so that the admin would upload the malicious image.
+   
+    ![](images/Screenshot80.png)
+    
+    -Once the attacker has persuaded the admin into uploading the malicioius image, You can see that the image will make it so the prompt will always appear when you enter the page
+    
+### Attack Confirmation
+    ![](images/Screenshot79.png)
