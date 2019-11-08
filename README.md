@@ -34,3 +34,5 @@ Codepath week 7-8
     Using this persistant cross site scrpting attack, an attacker can manipulate an admin(via social engineering) to upload an image with a malicious filenam. When uploaded into wordpress, will allow the attacker to steal the admins session cookies and login info to act as the admin and manipulate the site.
     
 ### Walkthrough:
+    -For this attack to work, the attacker would first need to perform some social engineering on the admin, so that the admin would upload the malicious image.
+    -Once the attacker has persuaded the admin into uploading the malicioius image the
