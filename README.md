@@ -56,4 +56,5 @@ Codepath week 7-8
    
 ## Wlakthrough:
 
-   
+   First, you need to make sure that you have Reflex-Gallery installed and activated in Wordpress
+![](images?screenshot62.png)
