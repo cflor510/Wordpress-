@@ -64,3 +64,10 @@ Codepath week 7-8
 ![](images/Screenshot61.png)
 
    Afterwards, you will set the target to wordpress site by using "msf> set RHOST target_website_link" For me, it was "wpdistillery.vm" and then you will execute the attack using the command "exploit"
+   You can see the meterpeter session uploading then deleting the payload to open up the meterpeter session(our shell)
+![](images/Screenshot65.png)
+
+## Attack Confirmation:
+   When the meterpeter session has started, that means we have made a shell and now have access to the database
+![](images/Screenshot64.png)
+![](images/Screenshot66.png)
