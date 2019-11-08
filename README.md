@@ -72,8 +72,9 @@ Codepath week 7-8
 ![](images/Screenshot66.png)
 
    After i got access to the database I was able to make a new file called file.txt, and edited it saying "you got hacked"
-![](images/Screenshots82.png)
-![](images/Screenshots81.png)
+   
+![](images/Screenshot82.png)
+![](images/Screenshot81.png)
 
 
 ## Attack Succes
