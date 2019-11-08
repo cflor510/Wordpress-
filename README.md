@@ -36,10 +36,24 @@ Codepath week 7-8
     
 ### Walkthrough:
     -For this attack to work, the attacker would firsneed to perform some social engineering on the admin, so that the admin would upload the malicious image.
-   
+    -This is the name with the malicious javascript(highlighted text) of the file i used.
  ![](images/Screenshot80.png)
     
     -Once the attacker has persuaded the admin into uploading the malicioius image, You can see that the image will make it so the prompt will always appear when you enter the page
     
 ### Attack Confirmation
  ![](images/Screenshot79.png)
+ 
+ 
+
+## CVE-2015-4133
+### Sources: https://courses.codepath.com/courses/cybersecurity_university/unit/8#!exercises, https://www.rapid7.com/db/modules/exploit/unix/webapp/wp_reflexgallery_file_upload
+
+## Overview:
+
+   -This attack takes advantage of an arbitrary PHP code upload in the Wordpress plug-in Reflex-Gallery version 3.1.3.
+   -When this plug-in is installed, an attacker can tske advantage of that bug and execute a remote shell and gain access to the database.
+   
+## Wlakthrough:
+
+   
