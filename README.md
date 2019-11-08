@@ -57,4 +57,7 @@ Codepath week 7-8
 ## Wlakthrough:
 
    First, you need to make sure that you have Reflex-Gallery installed and activated in Wordpress
-![](images?screenshot62.png)
+![](images/Screenshot62.png)
+
+   After you make sure that REflex-Galery is installed, Your going to have to open up a metasploit terminal and search for the exploit using "msf> search Reflex"
+   
