@@ -37,9 +37,9 @@ Codepath week 7-8
 ### Walkthrough:
     -For this attack to work, the attacker would firsneed to perform some social engineering on the admin, so that the admin would upload the malicious image.
    
-    ![](images/Screenshot80.png)
+ ![](images/Screenshot80.png)
     
     -Once the attacker has persuaded the admin into uploading the malicioius image, You can see that the image will make it so the prompt will always appear when you enter the page
     
 ### Attack Confirmation
-    ![](images/Screenshot79.png)
+ ![](images/Screenshot79.png)
