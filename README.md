@@ -12,7 +12,7 @@ Codepath week 7-8
   
     First, the attacker would need to post a harmless comment so that the adminstrator could approve the comment.
     After the administrator approves a single comment from a user(the attacker in this case), the user will no longer need approval for any of the further comments. 
-    I had problems with this step because i wasn able to view posts at first. I kept getting a 404 error
+    I had problems with this step because i wasn able to view posts at first. I kept getting a 404 error.
  ![404 request when attempting to view page](images/Screenshot77.png)
     I had to change the permalink settings from "Custom Structure" to "Default"
  ![Change to default Permalink settings](images/Screenshot78.png)
@@ -22,7 +22,7 @@ Codepath week 7-8
  
     
  ## Attack Confirmation
-    After the comment with the script is posted, you can see the the alert box that shows you the script worked
+    After the comment with the script is posted, you can see the the alert box that shows you the script worked.
  ![Attack succes](images/Screenshot69.png)
 
 
@@ -39,7 +39,7 @@ Codepath week 7-8
     -This is the name with the malicious javascript(highlighted text) of the file i used.
  ![](images/Screenshot80.png)
     
-    -Once the attacker has persuaded the admin into uploading the malicioius image, You can see that the image will make it so the prompt will always appear when you enter the page
+    -Once the attacker has persuaded the admin into uploading the malicioius image, You can see that the image will make it so the prompt will always appear when you enter the page.
     
 ### Attack Confirmation
  ![](images/Screenshot79.png)
@@ -56,8 +56,11 @@ Codepath week 7-8
    
 ## Wlakthrough:
 
-   First, you need to make sure that you have Reflex-Gallery installed and activated in Wordpress
+   First, you need to make sure that you have Reflex-Gallery installed and activated in Wordpress.
 ![](images/Screenshot62.png)
 
    After you make sure that REflex-Galery is installed, Your going to have to open up a metasploit terminal and search for the exploit using "msf> search Reflex"
-   
+   As you can see, metasploit will give you the script you are going to use for the exploit.
+![](images/Screenshot61.png)
+
+   Afterwards, you will set the target to wordpress site by using "msf> set RHOST target_website_link" For me, it was "wpdistillery.vm" and then you will execute the attack using the command "exploit"
