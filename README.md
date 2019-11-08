@@ -67,7 +67,8 @@ Codepath week 7-8
    You can see the meterpeter session uploading then deleting the payload to open up the meterpeter session(our shell)
 ![](images/Screenshot65.png)
 
-## Attack Confirmation:
    When the meterpeter session has started, that means we have made a shell and now have access to the database
 ![](images/Screenshot64.png)
 ![](images/Screenshot66.png)
+
+   After i got access to the database I was able to make a new file called file.txt, and edited it saying "you got hacked"
